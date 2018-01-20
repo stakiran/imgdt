@@ -1,5 +1,5 @@
 # imgdt
-デジカメの画像ファイル名を `DSCNXXXX.JPG` → `YYMMDD_HHMMSS.JPG` に変換する Python スクリ。
+デジカメの画像ファイル名を `DSCNXXXX.JPG` → 撮影日時の `YYMMDD_HHMMSS.JPG` に変換する Python スクリ。
 
 <!-- toc -->
 - [imgdt](#imgdt)
@@ -31,7 +31,7 @@ $ dir
 2018/01/13  17:26           828,614 DSCN5355.JPG
 2018/01/13  17:26           841,007 DSCN5356.JPG
 
-$ python imgdt.dt
+$ python imgdt.py
 DSCN5346.JPG -> 180110_202024.JPG
 DSCN5349.JPG -> 180113_165358.JPG
 DSCN5354.JPG -> 180113_172610.JPG
